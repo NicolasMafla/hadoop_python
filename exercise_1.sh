@@ -1,1 +1,1 @@
-echo "la casa" | ./scripts/exercise_1/mapper.py
+!cat ./hadoop_python/data/casoDePruebaEJ1.txt | ./hadoop_python/scripts/exercise_1/mapper.py | sort -t 1 | ./hadoop_python/scripts/exercise_1/reducer.py
