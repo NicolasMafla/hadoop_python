@@ -1,0 +1,1 @@
+echo "la casa" | ./scripts/exercise_1/mapper.py
