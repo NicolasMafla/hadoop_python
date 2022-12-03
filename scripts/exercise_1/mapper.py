@@ -1,7 +1,7 @@
-#!/usr/bin/python
+#!/usr/bin/python3.8
 import sys
 
 for line in sys.stdin:
     person, spent = line.split()
     info = dict()
-    print("{}\t{}".format(person, spent))
+    print(f"{person}\t{spent}")
