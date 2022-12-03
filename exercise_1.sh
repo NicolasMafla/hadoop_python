@@ -1,1 +1,1 @@
-!cat ./hadoop_python/data/casoDePruebaEJ1.txt | ./hadoop_python/scripts/exercise_1/mapper.py | sort -t 1 | ./hadoop_python/scripts/exercise_1/reducer.py
+cat ./data/casoDePruebaEJ1.txt | ./scripts/exercise_1/mapper.py | sort -k 1
