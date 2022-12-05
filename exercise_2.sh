@@ -1,1 +1,1 @@
-cat ./hadoop_python/data/cite75_99.txt | ./hadoop_python/scripts/exercise_2/mapper.py
+cat ./hadoop_python/data/cite75_99.txt | ./hadoop_python/scripts/exercise_2/mapper.py | sort -r -k 1 | ./hadoop_python/scripts/exercise_2/reducer.py
