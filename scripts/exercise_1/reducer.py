@@ -17,7 +17,7 @@ for index, line in enumerate(sys.stdin):
             max_count = count
             current_spent = spent
     else:
-        print(f"{current_person}\t{current_spent}\t{max_count}")
+        print(f"{current_person}\t{current_spent}")
         current_person = person
         max_count = count
-print(f"{current_person}\t{current_spent}\t{max_count}")
+print(f"{current_person}\t{current_spent}")
