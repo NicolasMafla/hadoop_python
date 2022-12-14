@@ -6,7 +6,7 @@ current_spent = None
 total = 0
 
 for index, line in enumerate(sys.stdin):
-    person, spent, count = line.split("\t")
+    person, spent, count = line.strip().split("\t")
     count = int(count)
     if index == 0:
         current_person = person
