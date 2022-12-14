@@ -11,7 +11,9 @@ for index, line in enumerate(sys.stdin):
     if current_citted == citted:
         cittings.add(int(citting.strip()))
     else:
-        print(f"{current_citted.strip()}\t{','.join([str(s) for s in sorted(cittings)])}")
+        cittings_string = ",".join([str(s) for s in sorted(cittings)])
+        print(f"{current_citted.strip()}\t{cittings_string}")
         current_citted = citted
         cittings = [int(citting.strip())]
-print(f"{current_citted.strip()}\t{','.join([str(s) for s in sorted(cittings)])}")
+cittings_string = ",".join([str(s) for s in sorted(cittings)])
+print(f"{current_citted.strip()}\t{cittings_string}")
