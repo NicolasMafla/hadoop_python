@@ -3,4 +3,4 @@ import sys
 
 for line in sys.stdin:
     person, spent = line.split()
-    print(f"{person}\t{spent}")
+    print(f"{person}\t{spent}\t1")
